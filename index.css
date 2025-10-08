@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e3f7f1; /* verde-água pastel */
+    background-color: #e3f7f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +18,19 @@ body {
     max-width: 600px;
     color: #333;
     text-align: center;
+    box-sizing: border-box;
 }
 
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #333;
 }
 
 h2 {
     font-size: 1.8rem;
     margin-bottom: 30px;
+    color: #555;
 }
 
 button {
@@ -40,8 +43,31 @@ button {
     cursor: pointer;
     margin: 10px;
     transition: background-color 0.3s ease;
+    width: 200px;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+    }
 }
