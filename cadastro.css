@@ -21,9 +21,11 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #4f9f99;
+  margin-bottom: 20px;
 }
+
 
 h2 {
     font-size: 1.5rem;
